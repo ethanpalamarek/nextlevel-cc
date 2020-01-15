@@ -7,12 +7,20 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import { graphql } from 'gatsby';
 
-Index.propTypes = {
-  data: PropTypes.object.isRequired,
-};
 
 export default Index;
-
+const Index = ({ data }) => (
+  <Layout>
+    <Box>
+      <Title as="h2" size="large">
+        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+      </Title>
+    </Box>
+    <Gallery items={data.homeJson.gallery} />
+    <div style={{ height: '50vh' }} />
+    <IOExample />
+  </Layout>
+);
 export const query = graphql`
   query HomepageQuery {
     homeJson {
