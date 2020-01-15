@@ -8,9 +8,6 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 const Index = ({ data }) => (
   <Layout>
     <Box>
@@ -36,12 +33,11 @@ const Index = ({ data }) => (
 Index.propTypes = {
   data: PropTypes.object.isRequired,
 };
->>>>>>> parent of 32be739... get rid of modal, add roster page, update nav
-=======
+
 Index.propTypes = {
   data: PropTypes.object.isRequired,
 };
->>>>>>> parent of 06c3a3f... Update index.js
+
 
 export default Index;
 
