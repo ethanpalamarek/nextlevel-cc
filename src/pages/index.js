@@ -9,6 +9,7 @@ import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const Index = ({ data }) => (
   <Layout>
@@ -36,20 +37,14 @@ Index.propTypes = {
   data: PropTypes.object.isRequired,
 };
 >>>>>>> parent of 32be739... get rid of modal, add roster page, update nav
+=======
+Index.propTypes = {
+  data: PropTypes.object.isRequired,
+};
+>>>>>>> parent of 06c3a3f... Update index.js
 
 export default Index;
-const Index = ({ data }) => (
-  <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title>
-    </Box>
-    <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
-  </Layout>
-);
+
 export const query = graphql`
   query HomepageQuery {
     homeJson {
