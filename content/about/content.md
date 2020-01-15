@@ -1,21 +1,4 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+Manteo cycling is a collective of individuals from all different walks of life, with the mission to change the face of bicycle racing in Alberta and beyond. 
 
-# To develop
-yarn develop
-
-# To build
-yarn build
-
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
-```
+Follow our journey fo 2020 on [Instagram](https://www.instagram.com/manteocycling/)
