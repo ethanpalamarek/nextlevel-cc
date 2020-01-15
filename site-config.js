@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
+  siteTitle: `Manteo Cycling`,
+  siteTitleShort: `Manteocc`,
+  siteDescription: `A new era of cycling in Alberta`,
+  siteUrl: `https://manteocycling.ca`,
+  themeColor: `#1c396c`,
   backgroundColor: `#fff`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
