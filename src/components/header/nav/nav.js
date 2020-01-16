@@ -9,6 +9,9 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
+        <Link to="/team">The Team</Link>
+      </li>
+      <li>
         <a href="https://www.instagram.com/manteocycling/">Instagram</a>
       </li>
     </ul>
