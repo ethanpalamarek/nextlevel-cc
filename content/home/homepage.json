@@ -2,12 +2,12 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/rk.jpg"
   },
   {
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/jk.jpg"
   },
   {
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/cm.jpg"
   }]
 }
