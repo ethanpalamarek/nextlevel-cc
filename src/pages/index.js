@@ -35,7 +35,6 @@ export default Index;
 export const query = graphql`
   query HomepageQuery {
     homeJson {
-      title
       content {
         childMarkdownRemark {
           html
@@ -43,8 +42,6 @@ export const query = graphql`
         }
       }
       gallery {
-        title
-        copy
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
