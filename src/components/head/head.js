@@ -44,7 +44,10 @@ const Head = ({
     <meta content="website" property="og:type" />
     <meta content={siteTitle} property="og:site_name" />
     <meta content={social.fbAppId} property="fb:app_id" />
+<<<<<<< Updated upstream
     <meta content={canonical} property="og:url" />
+=======
+>>>>>>> Stashed changes
     <link rel="canonical" href={canonical} />
 
     <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
